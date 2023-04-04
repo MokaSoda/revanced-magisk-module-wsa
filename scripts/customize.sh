@@ -5,9 +5,9 @@ if [ $ARCH = "arm" ]; then
 	#arm
 	ARCH_LIB=armeabi-v7a
 	alias cmpr='$MODPATH/bin/arm/cmpr'
-elif [ $ARCH = "arm64" ]; then
+elif [ $ARCH = "x64" ]; then
 	#arm64
-	ARCH_LIB=arm64-v8a
+	ARCH_LIB=x86_64
 	alias cmpr='$MODPATH/bin/arm64/cmpr'
 else
 	abort "ERROR: unsupported arch: ${ARCH}"
