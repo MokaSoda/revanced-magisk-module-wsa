@@ -93,7 +93,7 @@ for table_name in $(toml_get_table_names); do
 		abort "ERROR: no 'apkmirror_dlurl', 'uptodown_dlurl' or 'apkmonk_dlurl' option was set for '$table_name'."
 	fi
 	app_args[arch]=$(toml_get "$t" arch) && {
-		if ! isoneof "${app_args[arch]}" all arm64-v8a arm-v7a; then
+		if ! isoneof "${app_args[arch]}" all arm64-v8a arm-v7a x86_64; then
 			abort "ERROR: arch '${app_args[arch]}' is not a valid option for '${table_name}': only 'all', 'arm64-v8a', 'arm-v7a' is allowed"
 		fi
 	} || app_args[arch]="all"
