@@ -1,6 +1,6 @@
 {
-  "version": "v10.1.6",
-  "versionCode": 2,
-  "zipUrl": "https://github.com/MokaSoda/revanced-magisk-module-wsa/releases/download/2/kakaotalk-revanced-magisk-v10.1.6-all.zip",
+  "version": "v10.1.7",
+  "versionCode": 3,
+  "zipUrl": "https://github.com/MokaSoda/revanced-magisk-module-wsa/releases/download/3/kakaotalk-revanced-magisk-v10.1.7-all.zip",
   "changelog": "https://raw.githubusercontent.com/MokaSoda/revanced-magisk-module-wsa/update/build.md"
 }
