@@ -5,6 +5,10 @@ if [ $ARCH = "arm" ]; then
 	#arm
 	ARCH_LIB=armeabi-v7a
 	alias cmpr='$MODPATH/bin/arm/cmpr'
+elif [ $ARCH = "arm64" ]; then
+	#arm64
+	ARCH_LIB=arm64-v8a
+	alias cmpr='$MODPATH/bin/arm64/cmpr'
 elif [ $ARCH = "x64" ]; then
 	#arm64
 	ARCH_LIB=x86_64
